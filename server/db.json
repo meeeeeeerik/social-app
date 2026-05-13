@@ -1,0 +1,322 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Johnson",
+      "email": "alex@demo.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "bio": "Full-stack developer & coffee enthusiast ☕",
+      "location": "San Francisco, CA",
+      "website": "https://alexdev.io",
+      "followers": [
+        "u2",
+        "u3"
+      ],
+      "following": [
+        "u3",
+        "8577691d-2539-4a72-b023-3082fc7b0824"
+      ],
+      "joinedAt": "2024-01-15"
+    },
+    {
+      "id": "u2",
+      "name": "Sarah Chen",
+      "email": "sarah@demo.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "bio": "UX Designer | Making the web beautiful ✨",
+      "location": "New York, NY",
+      "website": "https://sarahdesigns.co",
+      "followers": [],
+      "following": [
+        "u1",
+        "u3",
+        "8577691d-2539-4a72-b023-3082fc7b0824"
+      ],
+      "joinedAt": "2024-02-20"
+    },
+    {
+      "id": "u3",
+      "name": "Marcus Rivera",
+      "email": "marcus@demo.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "avatar": "https://i.pravatar.cc/150?img=68",
+      "bio": "Data Scientist | AI enthusiast 🤖",
+      "location": "Austin, TX",
+      "website": "",
+      "followers": [
+        "u2",
+        "u1"
+      ],
+      "following": [
+        "u1",
+        "8577691d-2539-4a72-b023-3082fc7b0824"
+      ],
+      "joinedAt": "2024-03-10"
+    },
+    {
+      "id": "8577691d-2539-4a72-b023-3082fc7b0824",
+      "name": "Merdan Reyimov",
+      "email": "merikreyimov@gmail.com",
+      "password": "$2a$10$.bhPmX3VDhXrYJb0jnn1jOOnCqWpFaXGKZBTKQOtKbt/TETBuR2bu",
+      "avatar": "",
+      "bio": "Frontend Developer | React · TypeScript · Redux 🚀",
+      "location": "Penza, Russia",
+      "website": "",
+      "followers": [
+        "u1",
+        "u2",
+        "u3"
+      ],
+      "following": [
+        "u1",
+        "u2",
+        "u3"
+      ],
+      "joinedAt": "2026-05-11"
+    }
+  ],
+  "posts": [
+    {
+      "id": "m-post-1",
+      "authorId": "8577691d-2539-4a72-b023-3082fc7b0824",
+      "content": "👋 Hey everyone! I'm Merdan — a Frontend Developer specializing in React, TypeScript & Redux. I love building clean, fast and user-friendly interfaces. Open to new projects and collaborations! 🚀",
+      "image": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=800",
+      "likes": [
+        "u1",
+        "u2",
+        "u3"
+      ],
+      "comments": [
+        "mc1",
+        "mc2"
+      ],
+      "tags": [
+        "frontend",
+        "react",
+        "typescript"
+      ],
+      "createdAt": "2026-05-11T12:00:00.000Z"
+    },
+    {
+      "id": "m-post-2",
+      "authorId": "8577691d-2539-4a72-b023-3082fc7b0824",
+      "content": "My frontend stack in 2026 ⚡\n\n⚛️ React 18 — component-driven UI with hooks\n📘 TypeScript — strong typing, fewer bugs, better DX\n🗂️ Redux Toolkit — predictable and scalable state management\n\nEach tool solves a specific problem. Together they make a solid, maintainable architecture for any project.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+      "likes": [
+        "u1",
+        "u3"
+      ],
+      "comments": [
+        "mc3"
+      ],
+      "tags": [
+        "react",
+        "typescript",
+        "redux"
+      ],
+      "createdAt": "2026-05-11T11:30:00.000Z"
+    },
+    {
+      "id": "m-post-3",
+      "authorId": "8577691d-2539-4a72-b023-3082fc7b0824",
+      "content": "Redux Toolkit is what Redux should have been from day one. No more boilerplate, createSlice keeps everything clean and readable. If you're still using plain Redux — it's time to upgrade! 💡 #redux #webdev #frontend",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800",
+      "likes": [
+        "u2",
+        "u1"
+      ],
+      "comments": [],
+      "tags": [
+        "redux",
+        "webdev",
+        "frontend"
+      ],
+      "createdAt": "2026-05-11T10:00:00.000Z"
+    },
+    {
+      "id": "p1",
+      "authorId": "u1",
+      "content": "Just shipped a new feature using React + TypeScript + Redux Toolkit! The developer experience is amazing 🚀 Who else loves strongly typed state management?",
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+      "likes": [
+        "u2",
+        "u3",
+        "u1"
+      ],
+      "comments": [
+        "c1",
+        "c2"
+      ],
+      "tags": [
+        "react",
+        "typescript",
+        "webdev"
+      ],
+      "createdAt": "2024-12-18T10:30:00Z"
+    },
+    {
+      "id": "p2",
+      "authorId": "u2",
+      "content": "Design tip of the day: Always design for mobile first, then scale up. Your users will thank you later! 📱✨",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800",
+      "likes": [
+        "u1"
+      ],
+      "comments": [
+        "c3"
+      ],
+      "tags": [
+        "design",
+        "ux",
+        "mobile"
+      ],
+      "createdAt": "2024-12-18T09:15:00Z"
+    },
+    {
+      "id": "p3",
+      "authorId": "u3",
+      "content": "Just finished reading 'Designing Machine Learning Systems'. If you're serious about ML in production, this is a must-read! 📚",
+      "image": "",
+      "likes": [
+        "u2",
+        "u1"
+      ],
+      "comments": [],
+      "tags": [
+        "ml",
+        "ai",
+        "books"
+      ],
+      "createdAt": "2024-12-17T18:00:00Z"
+    },
+    {
+      "id": "p4",
+      "authorId": "u1",
+      "content": "Morning motivation: The best time to start learning was yesterday. The second best time is NOW. Keep building! 💪",
+      "image": "",
+      "likes": [
+        "u2",
+        "u1"
+      ],
+      "comments": [],
+      "tags": [
+        "motivation",
+        "coding"
+      ],
+      "createdAt": "2024-12-17T07:00:00Z"
+    },
+    {
+      "id": "p5",
+      "authorId": "u2",
+      "content": "Color palette of the week! Loving these earth tones for web design 🎨",
+      "image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800",
+      "likes": [
+        "u1",
+        "u3"
+      ],
+      "comments": [
+        "c4"
+      ],
+      "tags": [
+        "design",
+        "colors",
+        "ui"
+      ],
+      "createdAt": "2024-12-16T14:30:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "mc1",
+      "postId": "m-post-1",
+      "authorId": "u1",
+      "content": "Welcome! Great to have another React dev here 🙌 Redux Toolkit is the way to go!",
+      "likes": [
+        "u2"
+      ],
+      "createdAt": "2026-05-11T12:15:00.000Z"
+    },
+    {
+      "id": "mc2",
+      "postId": "m-post-1",
+      "authorId": "u2",
+      "content": "Love the stack! TypeScript + React is such a clean combo for building scalable UIs ✨",
+      "likes": [],
+      "createdAt": "2026-05-11T12:30:00.000Z"
+    },
+    {
+      "id": "mc3",
+      "postId": "m-post-2",
+      "authorId": "u3",
+      "content": "Solid stack choice! RTK Query on top of this makes data fetching really elegant too 🔥",
+      "likes": [
+        "u1"
+      ],
+      "createdAt": "2026-05-11T11:50:00.000Z"
+    },
+    {
+      "id": "c1",
+      "postId": "p1",
+      "authorId": "u2",
+      "content": "Love this! TypeScript really does make everything so much safer. No more runtime surprises 😂",
+      "likes": [
+        "u1"
+      ],
+      "createdAt": "2024-12-18T11:00:00Z"
+    },
+    {
+      "id": "c2",
+      "postId": "p1",
+      "authorId": "u3",
+      "content": "Redux Toolkit is such a game changer. Remember how much boilerplate we used to write? 😭",
+      "likes": [],
+      "createdAt": "2024-12-18T11:30:00Z"
+    },
+    {
+      "id": "c3",
+      "postId": "p2",
+      "authorId": "u1",
+      "content": "Absolutely agree! Mobile-first saved my last project from a complete redesign",
+      "likes": [
+        "u2"
+      ],
+      "createdAt": "2024-12-18T09:45:00Z"
+    },
+    {
+      "id": "c4",
+      "postId": "p5",
+      "authorId": "u3",
+      "content": "These colors are perfect for a nature/eco brand!",
+      "likes": [],
+      "createdAt": "2024-12-16T15:00:00Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": "s-merdan",
+      "userId": "8577691d-2539-4a72-b023-3082fc7b0824",
+      "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400",
+      "expiresAt": "2026-05-12T12:00:00.000Z"
+    },
+    {
+      "id": "s1",
+      "userId": "u1",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400",
+      "expiresAt": "2026-05-12T10:00:00Z"
+    },
+    {
+      "id": "s2",
+      "userId": "u2",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
+      "expiresAt": "2026-05-12T09:00:00Z"
+    },
+    {
+      "id": "s3",
+      "userId": "u3",
+      "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400",
+      "expiresAt": "2026-05-12T18:00:00Z"
+    }
+  ]
+}
